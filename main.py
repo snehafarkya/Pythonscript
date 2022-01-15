@@ -6,7 +6,7 @@ def CalculatePi(roundVal):
 		pi = str(somepi)
 		someList = list(pi)
 		return somepi;
-roundTo = input('Enter the number of digits you want after the decimal for Pi: ')
+roundTo = input('Enter the number of digits you want after the decimal for Pi: \n')
 try:
 	roundint = int(roundTo);
 	print(CalculatePi(roundint));
